@@ -1,18 +1,12 @@
-using System;
-
-namespace baekjun1
+namespace ConsoleApp1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string userInput = Console.ReadLine();
-            string[] input = userInput.Split();
+            string[] userInput = Console.ReadLine().Split();
 
-            int A = int.Parse(input[0]);
-            int B = int.Parse(input[1]);
-            
-            Console.WriteLine(A + B);
+            Console.WriteLine(int.Parse(userInput[0]) + int.Parse(userInput[1]));
         }
     }
 }
